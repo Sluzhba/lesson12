@@ -1,0 +1,56 @@
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container__head {
+  font-size: 2rem;
+  text-align: center;
+}
+.container__square {
+  fill: rgb(0, 0, 255);
+  stroke-width: 5;
+  stroke: yellow;
+}
+
+.container__square:hover {
+  fill: rgb(255, 0, 0);
+  stroke: rgb(0, 255, 0);
+}
+
+.container__rect {
+    fill: green;
+    stroke-width: 5;
+    stroke: red;
+  }
+  
+  .container__rect:hover {
+    fill: yellow;
+    stroke: blue;
+  }
+
+  .container__circle {
+    fill: red;
+    stroke-width: 5;
+    stroke: black;
+  }
+  
+  .container__circle:hover {
+    fill: green;
+    stroke: brown;
+  }
+
+  .container__ellipse {
+    fill: purple;
+    stroke-width: 5;
+    stroke: cyan;
+  }
+  
+  .container__ellipse:hover {
+    fill: aquamarine;
+    stroke: blueviolet;
+  }
